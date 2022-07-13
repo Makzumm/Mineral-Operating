@@ -1,5 +1,6 @@
 html {
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 *,
@@ -46,4 +47,5 @@ address {
 
 body{
     font-family: "Roboto";
+    background-color: #689ed4;
 }

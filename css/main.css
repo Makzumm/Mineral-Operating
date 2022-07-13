@@ -2,6 +2,7 @@
 html {
   -webkit-box-sizing: border-box;
           box-sizing: border-box;
+  scroll-behavior: smooth;
 }
 
 *,
@@ -49,6 +50,7 @@ address {
 
 body {
   font-family: "Roboto";
+  background-color: #689ed4;
 }
 
 .container {
@@ -72,7 +74,7 @@ body {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
-  background-color: #fff;
+  background-color: #ffffff;
   -webkit-transition: 0.6s;
   transition: 0.6s;
 }
@@ -121,7 +123,7 @@ body {
   font-weight: 400;
   font-size: 16px;
   line-height: 1.18;
-  color: #fff;
+  color: #ffffff;
 }
 
 .nav-list__link--current {
@@ -152,7 +154,7 @@ body {
   font-weight: 700;
   font-size: 14px;
   line-height: 1.21;
-  color: #fff;
+  color: #ffffff;
 }
 
 .header-contacts-list__link--second {
@@ -166,7 +168,8 @@ body {
 .section-hero {
   background: -webkit-gradient(linear, left top, left bottom, from(#5B7BB7), to(#6196CB));
   background: linear-gradient(180deg, #5B7BB7 0%, #6196CB 100%);
-  padding-top: 144px;
+  padding-top: 148px;
+  padding-bottom: 218px;
 }
 
 .container--hero {
@@ -185,14 +188,14 @@ body {
   font-weight: 700;
   font-size: 58px;
   line-height: 0.94;
-  color: #fff;
+  color: #ffffff;
 }
 
 .hero-cont__paragraph {
   font-weight: 400;
   font-size: 20px;
   line-height: 1.4;
-  color: #fff;
+  color: #ffffff;
   margin-bottom: 36px;
 }
 
@@ -221,7 +224,7 @@ body {
   -webkit-box-align: baseline;
       -ms-flex-align: baseline;
           align-items: baseline;
-  border-left: 1px solid #fff;
+  border-left: 1px solid #ffffff;
   height: 13px;
   padding: 0px 0 0px 8px;
 }
@@ -235,8 +238,8 @@ body {
   font-size: 18px;
   line-height: 1.16;
   text-align: center;
-  background: #2797FF;
-  color: #fff;
+  background: #2797ff;
+  color: #ffffff;
 }
 
 .hero-vid {
@@ -268,5 +271,74 @@ body {
 }
 
 .hero-vid__svg {
-  fill: #fff;
+  fill: #ffffff;
+}
+
+.container--bio {
+  padding-top: 148px;
+}
+
+.member-cont__thumb {
+  border: none;
+  border-radius: 10px;
+}
+
+.company-about-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin-bottom: 94px;
+}
+
+.company-about-cont__thumb {
+  width: 362px;
+  height: 392px;
+  margin-right: 90px;
+}
+
+.company-description-cont__title {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 1.02;
+  color: #ffffff;
+}
+
+.company-description-cont__txt {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 28px;
+  color: #ffffff;
+}
+
+.company-description-cont__txt--frst {
+  margin-bottom: 44px;
+}
+
+.comapny-members-cont {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  gap: 38px;
+}
+
+.member-description-cont {
+  margin-top: 40px;
+}
+
+.member-cont__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 1.08;
+  color: #ffffff;
+  margin-bottom: 12px;
+}
+
+.member-cont__txt {
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.22;
+  color: #ffffff;
 }/*# sourceMappingURL=main.css.map */
