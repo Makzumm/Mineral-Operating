@@ -1,0 +1,50 @@
+.form-section{
+    padding: 135px 0;
+}
+
+.container--form{
+    display: flex;
+}
+
+.question-cont__title{
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 1.02;
+    color: $white-color;
+}
+
+.question-cont__txt{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: $white-color;
+}
+
+.question-cont__dscrpt{
+    display: inline-block;
+    margin-bottom: 38px;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 28px;
+    color: $white-color;
+}
+
+.question-cont__mail{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.question-cont__tel{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 27px;
+    color: #FFFFFF;
+    margin-bottom: 0;
+}
+
+.question-cont__link-bold{
+    font-weight: 700;
+}

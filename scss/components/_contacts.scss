@@ -1,6 +1,5 @@
 .contacts-section{
     position: relative;
-    max-width: 1920px;
     min-height: 663px;
     padding-top: 115px;
     padding-bottom: 115px;
@@ -13,16 +12,128 @@
 .contacts-section__icon{
     position: absolute;
     top: 40%;
-    left: 60%;
-    fill: $icon-color;
-}
-
-.social-list__icon--instagram{
-    display: inline-flex;
+    left: 65%;
+    fill: $icon-map-color;
 }
 
 .info-container{
     max-width: 694px;
-    padding: 64px 34px;
+    padding: 35px 45px;
     background-color: $white-color;
+}
+
+.info-container__title{
+    margin-bottom: 0;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 56px;
+    color: #102441;
+}
+
+.info-container__link{
+    display: inline-block;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 46px;
+    color: #2797FF;
+    margin-bottom: 24px;
+}
+
+.contacts-list{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 36px;
+    margin-bottom: 18px;
+}
+
+.contacts-list__item{
+    position: relative;
+    display: flex;
+    flex-basis: calc(100% / 2 - 36px);
+}
+
+.contacts-list__icon{
+    position: absolute;
+    top: 2px;
+    left: -13px;
+}
+
+.contacts-list__icon--map-pin{
+    top: 2px;
+}
+
+.contacts-list__icon--phone{
+    transform: scale(142%);
+    fill: $light-blue-color;
+}
+
+.contacts-list__icon--whatsapp {
+    top: 3px;
+    transform: scale(110%);
+}
+
+.contacts-list__icon--clock{
+    top: 3px;
+}
+
+.contacts-list-wrapper{
+    margin-left: 11px;
+}
+
+.contacts-list__title{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 1.25;
+    color: $dark-blue-color;
+    margin-bottom: 5px;
+}
+
+.contacts-list__adress{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.56;
+    color: $light-grey-color;
+}
+
+.contacts-list__txt{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.56;
+    color: $light-grey-color;
+}
+
+.wrapper-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    padding-top: 32px;
+}
+
+.wrapper-cont::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    left: -34px;
+    width: 694px;
+    height: 1px;
+    background-color: #DFDFDF; 
+}
+
+.social-list{
+    display: flex;
+    gap: 24px;
+}
+
+.wrapper-cont__btn{
+    padding: 16px 30px 16px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 1.16;
+    text-align: center;
+    background: $light-blue-color;
+    color: $white-color;
 }
