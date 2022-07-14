@@ -4,6 +4,15 @@
 
 .container--form{
     display: flex;
+    align-items: flex-end;
+    gap: 50px;
+}
+
+.question-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 857px;
 }
 
 .question-cont__title{
@@ -11,6 +20,7 @@
     font-size: 45px;
     line-height: 1.02;
     color: $white-color;
+    margin-bottom: 50px;
 }
 
 .question-cont__txt{
@@ -22,7 +32,7 @@
 
 .question-cont__dscrpt{
     display: inline-block;
-    margin-bottom: 38px;
+    margin-bottom: 34px;
     font-weight: 400;
     font-size: 20px;
     line-height: 28px;
@@ -47,4 +57,80 @@
 
 .question-cont__link-bold{
     font-weight: 700;
+}
+
+.quest-form{
+        margin-top: 60px;
+}
+
+.form-field{
+    display: inline-flex;
+    gap: 14px;
+}
+
+.form-field__input{
+    width: 330px;
+    height: 48px;
+    padding: 10px 0 10px 20px;
+    border-radius: 10px;
+    font-size: 20px;
+    border: none;
+    background-color: $white-color;
+}
+
+.form-field__input::placeholder{
+    text-align: left;
+    font-weight: 400;
+    font-size: 20px;
+    color: $placeholder-txt;
+}
+
+.txtarea-cont{
+    margin-top: 14px;
+}
+
+.txtarea-cont__textarea{
+    resize: none;
+    width: 674px;
+    min-height: 130px;
+    margin-bottom: 24px;
+    padding: 14px 0 0 20px ;
+    border: none;
+    border-radius: 10px;
+    background-color: $white-color;
+    font-size: 20px;
+}
+
+.txtarea-cont__textarea::placeholder{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 1.4;
+    color: $placeholder-txt;
+}
+
+.btn-wrapper{
+    display: flex;
+    align-items: center;
+    gap: 28px;
+}
+
+.quest-form__btn{
+    display: inline-block;
+    width: 38%;
+    padding: 18px 30px 18px 30px;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: 700;
+    font-size: 18px;
+    text-align: center;
+    background: $light-blue-color;
+    color: $white-color;
+}
+
+.quest-form__txt{
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: $white-color;
 }

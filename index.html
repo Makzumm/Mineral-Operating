@@ -564,23 +564,47 @@
               >
             </p>
           </div>
-          <form name="quest-form">
+          <form class="quest-form" name="quest-form">
             <div class="form-field">
-              <input type="name" name="name" placeholder="Ваше имя" />
-              <input type="name" name="surname" placeholder="Ваша фамилия" />
+              <input
+                class="form-field__input"
+                type="name"
+                name="name"
+                placeholder="Ваше имя"
+                required
+              />
+              <input
+                class="form-field__input"
+                type="name"
+                name="surname"
+                placeholder="Ваша фамилия"
+                required
+              />
             </div>
             <div class="txtarea-cont">
               <textarea
+                class="txtarea-cont__textarea"
                 name="comment"
                 rows="5"
                 placeholder="Сообщение"
               ></textarea>
             </div>
+            <div class="btn-wrapper">
+              <button type="submit" class="quest-form__btn">
+                Оформить заявку
+              </button>
+              <span class="quest-form__txt"
+                >При нажатии кнопки “отправить”, вы соглашаетесь на обработку
+                данных</span
+              >
+            </div>
           </form>
         </div>
       </section>
     </main>
-    <footer class="footer"></footer>
+    <footer class="footer">
+      <div class="container"></div>
+    </footer>
     <script src="/js/preloader.js"></script>
   </body>
 </html>
