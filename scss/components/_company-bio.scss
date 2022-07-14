@@ -10,10 +10,12 @@
 .company-about-cont{
     display: flex;
     justify-content: space-between;
+    align-items: center;
     margin-bottom: 94px;
 }
 
 .company-about-cont__thumb{
+    
     width: 362px;
     height: 392px;
     margin-right: 90px;

@@ -36,19 +36,22 @@
 }
 
 .hero-list__item{
+    position: relative;
     font-weight: 400;
     font-size: 18px;
     line-height: 20px;
     color: #C8D7EB;
+    padding-left: 10px;
 }
 
-.hero-list__line{
-    display: inline-flex;
-    justify-content: baseline;
-    align-items: baseline;
-    border-left: 1px solid $white-color;
-    height: 13px;
-    padding: 0px 0 0px 8px;
+.hero-list__item::before{
+    position: absolute;
+    top: 2px;
+    left: 2px;
+    content: '';
+    width: 1px;
+    height: 9px;
+    background-color: $white-color;
 }
 
 .hero-cont__button{

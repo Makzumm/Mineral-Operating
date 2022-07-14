@@ -1,0 +1,28 @@
+.contacts-section{
+    position: relative;
+    max-width: 1920px;
+    min-height: 663px;
+    padding-top: 115px;
+    padding-bottom: 115px;
+    background-image: url(/img/gglmap.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.contacts-section__icon{
+    position: absolute;
+    top: 40%;
+    left: 60%;
+    fill: $icon-color;
+}
+
+.social-list__icon--instagram{
+    display: inline-flex;
+}
+
+.info-container{
+    max-width: 694px;
+    padding: 64px 34px;
+    background-color: $white-color;
+}
