@@ -514,7 +514,7 @@ body {
 .features-cont-thumb {
   width: 500px;
   height: 279px;
-  background-image: url(/img/map.png);
+  background-image: url("/images/map.png");
 }
 
 .contacts-section {
@@ -522,7 +522,7 @@ body {
   min-height: 663px;
   padding-top: 115px;
   padding-bottom: 115px;
-  background-image: url(/img/gglmap.jpg);
+  background-image: url("/images/gglmap.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
