@@ -263,8 +263,8 @@ body {
   height: 378px;
   border: none;
   border-radius: 10px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 100, 0.3)), to(rgba(0, 10, 100, 0.3))), url("/images/vid-frame.jpg"), #C4C4C4;
-  background: linear-gradient(0deg, rgba(0, 10, 100, 0.3), rgba(0, 10, 100, 0.3)), url("/images/vid-frame.jpg"), #C4C4C4;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 100, 0.3)), to(rgba(0, 10, 100, 0.3))), url("./images/vid-frame.jpg"), #C4C4C4;
+  background: linear-gradient(0deg, rgba(0, 10, 100, 0.3), rgba(0, 10, 100, 0.3)), url("./images/vid-frame.jpg"), #C4C4C4;
 }
 
 .hero-vid__button {
@@ -514,7 +514,7 @@ body {
 .features-cont-thumb {
   width: 500px;
   height: 279px;
-  background-image: url("/images/map.png");
+  background-image: url("./images/map.png");
 }
 
 .contacts-section {
@@ -522,7 +522,7 @@ body {
   min-height: 663px;
   padding-top: 115px;
   padding-bottom: 115px;
-  background-image: url("/images/gglmap.jpg");
+  background-image: url("./images/gglmap.jpg");
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
