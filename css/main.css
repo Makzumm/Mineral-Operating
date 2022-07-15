@@ -263,8 +263,8 @@ body {
   height: 378px;
   border: none;
   border-radius: 10px;
-  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 100, 0.3)), to(rgba(0, 10, 100, 0.3))), url("/img/vid-frame.jpg"), #C4C4C4;
-  background: linear-gradient(0deg, rgba(0, 10, 100, 0.3), rgba(0, 10, 100, 0.3)), url("/img/vid-frame.jpg"), #C4C4C4;
+  background: -webkit-gradient(linear, left bottom, left top, from(rgba(0, 10, 100, 0.3)), to(rgba(0, 10, 100, 0.3))), url("/images/vid-frame.jpg"), #C4C4C4;
+  background: linear-gradient(0deg, rgba(0, 10, 100, 0.3), rgba(0, 10, 100, 0.3)), url("/images/vid-frame.jpg"), #C4C4C4;
 }
 
 .hero-vid__button {
